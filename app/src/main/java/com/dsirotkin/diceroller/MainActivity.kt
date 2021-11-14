@@ -2,13 +2,11 @@ package com.dsirotkin.diceroller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
 import com.dsirotkin.diceroller.databinding.ActivityMainBinding
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding;
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
